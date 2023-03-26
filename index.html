@@ -5,10 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Quiz</title>
 </head>
 <body>
-    Hellop world
+    <div class="card">
+        <h1 id="question">Your Question will go here</h1>
+        <div class="option-flex">
+            <div class="op">  
+                <input type="radio" name="option" id="option1" value="a" class="option">
+                <label for="option1">(A)</label>
+
+            </div>
+
+            <div class="op">  
+                <input type="radio" name="option" id="option2" value="b" class="option">
+                <label for="option2">(B)</label>
+
+            </div> 
+            
+            <div class="op">  
+                <input type="radio" name="option" id="option3" value="c" class="option">
+                <label for="option3">(C)</label>
+
+            </div>
+            
+            <div class="op">  
+                <input type="radio" name="option" id="option4" value="d" class="option">
+                <label for="option4">(D)</label>
+
+            </div>
+
+            <button class="btn" onclick="submit()"> SUBMIT</button>
+
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
